@@ -68,6 +68,8 @@ def reserve():
 def preview():
     """Build production version of site"""
     local('pelican -s publishconf.py')
+    env.deploy_path = "../rajalokan.github.io"
+    serve()
 
 # def cf_upload():
 #     """Publish to Rackspace Cloud Files"""
