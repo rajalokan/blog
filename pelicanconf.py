@@ -29,7 +29,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 USE_FOLDER_AS_CATEGORY = True
-MAIN_MENU = True
+#MAIN_MENU = False
 
 LINKS = (('About me', 'http://rajalokan.com/'),)
 
@@ -39,10 +39,10 @@ SOCIAL = (('linkedin', 'https://in.linkedin.com/pub/alok-kumar/8/b83/947'),
           ('twitter', 'https://twitter.com/rajalokan'),
           ('google', 'https://plus.google.com/u/0/113206559731694133262/posts'),)
 
-MENUITEMS = (('Archives', '/archives.html'),
-             ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
-
+#MENUITEMS = (('Archives', '/archives.html'),
+#             ('Categories', '/categories.html'),
+#             ('Tags', '/tags.html'),)
+#
 CC_LICENSE = {
             'name': 'Creative Commons Attribution-ShareAlike',
             'version': '4.0',
